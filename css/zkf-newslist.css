@@ -1,0 +1,68 @@
+.zkf-con {
+  width: 1200px;
+  margin: 0 auto;
+}
+.zkf-left {
+  width: 184px;
+  height: 700px;
+  background: red;
+  float: left;
+}
+.zkf-right {
+  width: 949px;
+  height: 800px;
+  background: red;
+  float: right;
+}
+.zkf-right .zkfTop {
+  height: 77px;
+  border: 1px solid blue;
+}
+.zkf-right .zkfBot {
+  margin-top: 12px;
+}
+.zkf-right .zkfBot .zkfBotItem {
+  width: 465px;
+  height: 480px;
+  margin: 19px 19px 19px 0;
+  border: 1px solid #000;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-imgs {
+  height: 200px;
+  width: 465px;
+  margin-top: 20px;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des {
+  height: 210px;
+  padding: 33px 25px 30px 25px;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des .zkf-title {
+  height: 60px;
+  margin-bottom: 40px;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des .zkf-title span {
+  display: block;
+  font-size: 18px;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des .zkf-title span:nth-last-of-type(1) {
+  color: #272636;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des .zkf-title .zkf-num {
+  font-size: 24px;
+  font-variant: inherit;
+  float: left;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des .zkf-title .zkf-news {
+  font-size: 12px;
+  float: left;
+  padding-top: 13px;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des .zkf-desCon {
+  height: 40px;
+  font-size: 12px;
+  color: #808080;
+}
+.zkf-right .zkfBot .zkfBotItem .zkf-des .zkf-date {
+  font-size: 10px;
+  color: #BABABA;
+}
