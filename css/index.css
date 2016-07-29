@@ -1,0 +1,722 @@
+body {
+  background-color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.lx_show {
+  display: block;
+}
+.lx_hide {
+  display: none;
+}
+.lx_logo {
+  width: 1200px;
+  height: 50px;
+  margin: 50px auto 0;
+  position: relative;
+}
+.lx_logo a {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 300px;
+  height: 50px;
+  margin: auto;
+}
+.lx_logo img {
+  width: 100%;
+  height: 100%;
+}
+.lx_bannerWin {
+  width: 100%;
+  height: 610px;
+  position: relative;
+  border-bottom: 1px solid #aaaaaa;
+}
+.lx_bannerWin .lx_nav {
+  width: 100%;
+  height: 45px;
+  position: absolute;
+  top: 75px;
+  background: #0e1d35;
+  z-index: 99999;
+}
+.lx_bannerWin .lx_nav .lx_navLeft {
+  position: absolute;
+  top: -12px;
+  width: 23%;
+  height: 57px;
+  background: #e31642;
+  z-index: 10;
+}
+.lx_bannerWin .lx_nav .lx_navList {
+  position: relative;
+  z-index: 11;
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 45px;
+  background: #0e1d35;
+}
+.lx_bannerWin .lx_nav .lx_navList li {
+  padding: 0 10px;
+  height: 100%;
+  display: inline-block;
+}
+.lx_bannerWin .lx_nav .lx_navList .lx_listHot {
+  border-bottom: 2px solid #00b9ef;
+}
+.lx_bannerWin .lx_nav .lx_navList a {
+  font-size: 16px;
+  color: #ffffff;
+}
+.lx_bannerWin .lx_nav .lx_navList:after {
+  content: '';
+  width: 100%;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+}
+.lx_bannerWin .lx_nav .lx_navRight {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  width: 33%;
+  height: 50px;
+  background: #e31642;
+  z-index: 8;
+}
+.lx_bannerWin .lx_bannerBox {
+  width: 1200px;
+  height: 570px;
+  margin: 0 auto;
+  position: relative;
+}
+.lx_bannerWin .lx_bannerBox a {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 0;
+}
+.lx_bannerWin .lx_bannerBox img {
+  width: 100%;
+  height: 100%;
+}
+.lx_bannerWin .lx_btn {
+  width: 130px;
+  height: 15px;
+  padding: 10px;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -65px;
+  background: #ffffff;
+}
+.lx_bannerWin .lx_btn li {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin: 0 5px;
+  border: 1px solid #aaaaaa;
+  border-radius: 50%;
+  behavior: url(../css/border-radius.htc);
+}
+.lx_bannerWin .lx_btn .lx_btnHot {
+  background: #aaaaaa;
+}
+.lx_employ {
+  width: 100%;
+  height: 610px;
+  margin-top: 40px;
+  background: url("../images/lx/lx_jyzs.png") repeat-x 0 bottom;
+}
+.lx_employ .lx_employCon {
+  position: relative;
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.lx_employ .lx_employCon .lx_conTit {
+  width: 100%;
+  height: 70px;
+  background: url("../images/lx/lx_employ.png") no-repeat left top;
+  position: relative;
+}
+.lx_employ .lx_employCon .lx_conTit .lx_dirBtn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+.lx_employ .lx_employCon .lx_conTit .lx_dirBtn .lx_btnL {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 4px;
+  background: url("../images/lx/lx_btnL.png") no-repeat left top;
+}
+.lx_employ .lx_employCon .lx_conTit .lx_dirBtn .lx_btnR {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background: url("../images/lx/lx_btnR.png") no-repeat left top;
+}
+.lx_employ .lx_employCon .lx_emBannerbox {
+  width: 100%;
+  height: 430px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person {
+  width: 210px;
+  height: 430px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personPho {
+  width: 100%;
+  height: 252px;
+  display: block;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personPho img {
+  width: 100%;
+  height: 100%;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personInfo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: 30px auto 0;
+  width: 188px;
+  height: 180px;
+  background: #ffffff;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personInfo .lx_border {
+  width: 104%;
+  height: 1px;
+  background: #00a0e9;
+  position: absolute;
+  left: -3px;
+  padding: 0;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personInfo div {
+  padding: 5px 20px 4px;
+  font-size: 14px;
+  color: #aaa;
+  font-family: 微软雅黑;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personInfo .lx_personName a {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 微软雅黑;
+  color: #000;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personInfo .lx_personEdu {
+  border-bottom: 1px solid #aaaaaa;
+  padding: 5px 20px 12px;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personInfo .lx_personSal {
+  font-size: 30px;
+  color: #000;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person .lx_personInfo .lx_personSal span {
+  float: right;
+  color: #aaaaaa;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_personF {
+  margin-right: 0;
+}
+.lx_employ .lx_employCon .lx_embtn {
+  width: 130px;
+  height: 15px;
+  padding: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -65px;
+}
+.lx_employ .lx_employCon .lx_embtn li {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin: 0 5px;
+  border: 1px solid #aaaaaa;
+  border-radius: 50%;
+  behavior: url(../css/border-radius.htc);
+}
+.lx_employ .lx_employCon .lx_embtn .lx_btnHot {
+  background: #aaaaaa;
+}
+.lx_dyn {
+  width: 100%;
+  height: 875px;
+  position: relative;
+  background: #e31642;
+}
+.lx_dyn .lx_dynCon {
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
+.lx_dyn .lx_dynCon .lx_dynTit {
+  float: left;
+  width: 620px;
+  height: 210px;
+}
+.lx_dyn .lx_dynCon .lx_dynTit img {
+  width: 100%;
+  height: 100%;
+}
+.lx_dyn .lx_dynCon .lx_dynTV {
+  width: 570px;
+  height: 480px;
+  position: relative;
+  z-index: 9999;
+  float: right;
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBox {
+  width: 100%;
+  height: 440px;
+  background: url("../images/lx/lx_tv.png") no-repeat center;
+  position: relative;
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBox .lx_tvBg {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 2222 ;
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBox .lx_tvShow {
+  width: 524px;
+  height: 294px;
+  position: absolute;
+  left: 23px;
+  top: 22px;
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBox .lx_tvShow li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: 0;
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBox .lx_tvShow a {
+  display: block;
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBtn {
+  width: 100px;
+  height: 15px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  margin-left: -50px;
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBtn li {
+  width: 8px;
+  height: 8px;
+  float: left;
+  margin: 0 5px;
+  border: 1px solid #aaaaaa;
+  border-radius: 50%;
+  behavior: url(../css/border-radius.htc);
+}
+.lx_dyn .lx_dynCon .lx_dynTV .lx_tvBtn .lx_btnHot {
+  background: #aaaaaa;
+}
+.lx_dyn .lx_dynCon .lx_dynCou {
+  width: 100%;
+  height: 485px;
+  float: left;
+  margin-top: -250px;
+  position: relative;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo {
+  width: 460px;
+  height: 100%;
+  font-family: "微软雅黑";
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 460px;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo h3 {
+  padding: 15px 10px;
+  background: url("../images/lx/lx_tmmg.png") no-repeat left bottom;
+  margin-bottom: 40px;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo h3 a {
+  color: #fff100;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "微软雅黑";
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo h4 {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: "微软雅黑";
+  background: url("../images/lx/lx_h4.png") no-repeat left center;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo div {
+  padding: 0 65px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "微软雅黑 Light";
+  height: 88px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo .lx_zyqj {
+  background: url("../images/lx/lx_zyqj.png") no-repeat 13px top;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo .lx_zyjs {
+  background: url("../images/lx/lx_zyjs.png") no-repeat 13px top;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couInfo .lx_jyfx {
+  background: url("../images/lx/lx_jyfx.png") no-repeat 13px top;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couBtn {
+  position: absolute;
+  right: 0;
+  bottom: 25px;
+  width: 582px;
+  height: 180px;
+  padding: 10px 0 ;
+  background: #ffffff;
+}
+.lx_dyn .lx_dynCon .lx_dynCou .lx_couBtn a {
+  float: left;
+  margin-left: 14px;
+  font-size: 0;
+}
+.lx_pro {
+  width: 100%;
+  height: 800px;
+  background: #f4f4f4;
+}
+.lx_pro .lx_proCon {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  padding-top: 200px;
+  margin: 0 auto;
+}
+.lx_pro .lx_proCon .lx_proTit {
+  width: 910px;
+  height: 110px;
+  background: url("../images/lx/lx_comTit.png") no-repeat right center;
+}
+.lx_pro .lx_proCon .lx_proBox {
+  width: 820px;
+  height: 470px;
+  float: left;
+  position: relative;
+}
+.lx_pro .lx_proCon .lx_proBox li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  font-size: 0;
+}
+.lx_pro .lx_proCon .lx_proBox li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.lx_pro .lx_proCon .lx_proBox li img {
+  width: 100%;
+  height: 100%;
+}
+.lx_pro .lx_proCon .lx_proInfo {
+  position: absolute;
+  bottom: 55px;
+  right: 0;
+  width: 320px;
+  height: 235px;
+  overflow: hidden;
+}
+.lx_pro .lx_proCon .lx_proInfo .lx_infoTit {
+  width: 100%;
+  height: 80px;
+  background: url("../images/lx/lx_employment.png") no-repeat left center;
+}
+.lx_pro .lx_proCon .lx_proInfo .lx_infoIntro {
+  font-size: 14px;
+  color: #4e4e4e;
+  font-family: "微软雅黑 Light";
+  margin: 20px 0;
+}
+.lx_pro .lx_proCon .lx_proInfo .lx_infoIntroE {
+  font-size: 12px;
+  color: #797979;
+}
+.lx_pro .lx_proCon .lx_dirBtn {
+  position: absolute;
+  bottom: 23px;
+  right: 273px;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+.lx_pro .lx_proCon .lx_dirBtn .lx_btnL {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 4px;
+  background: url("../images/lx/lx_btnL.png") no-repeat left top;
+}
+.lx_pro .lx_proCon .lx_dirBtn .lx_btnR {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background: url("../images/lx/lx_btnR.png") no-repeat left top;
+}
+.lx_teac {
+  width: 100%;
+  height: 820px;
+  position: relative;
+  background: #088fca;
+}
+.lx_teac .lx_teacCon {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 1200px;
+  height: 470px;
+  padding-top: 155px;
+  margin: 0 auto;
+  background: #088fca;
+}
+.lx_teac .lx_teacCon .lx_teacTit {
+  position: relative;
+  float: left;
+  width: 526px;
+  height: 172px;
+  background: url("../images/lx/lx_teacTeam.png") no-repeat left center;
+  z-index: 999;
+}
+.lx_teac .lx_teacCon .lx_teacTit .lx_dirBtn {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+.lx_teac .lx_teacCon .lx_teacTit .lx_dirBtn .lx_btnL {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 4px;
+  background: url("../images/lx/lx_btnL.png") no-repeat left top;
+}
+.lx_teac .lx_teacCon .lx_teacTit .lx_dirBtn .lx_btnR {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background: url("../images/lx/lx_btnR.png") no-repeat left top;
+}
+.lx_teac .lx_teacCon .lx_teacIdea {
+  float: right;
+  width: 550px;
+  height: 280px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 20px;
+}
+.lx_teac .lx_teacCon .lx_teacIdea .lx_ideaE {
+  font-size: 12px;
+  padding: 10px 0;
+}
+.lx_teac .lx_teacCon .lx_teacIdea .lx_ideaImp {
+  font-size: 16px;
+  font-family: "微软雅黑";
+}
+.lx_teac .lx_teacCon .lx_teacTeam {
+  position: relative;
+  width: 100%;
+  height: 190px;
+  float: left;
+}
+.lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro .lx_groLea {
+  width: 412px;
+  height: 412px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro .lx_groLea a {
+  display: block;
+  font-size: 0;
+  position: absolute;
+  bottom: 0;
+}
+.lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro .lx_groLea img {
+  width: 100%;
+  height: 100%;
+}
+.lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro .lx_groMen {
+  float: right;
+  width: 772px;
+}
+.lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro .lx_groMen a {
+  float: left;
+  margin-left: 15px;
+  width: 178px;
+  height: 178px;
+}
+.lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro .lx_groMen img {
+  width: 100%;
+  height: 100%;
+}
+.lx_zx {
+  width: 100%;
+  height: 640px;
+  position: relative;
+  background: #0e1d35 url("../images/lx/lx_jyzx.png") no-repeat center;
+}
+.lx_zx .lx_zxCon {
+  width: 1290px;
+  height: 500px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+.lx_zx .lx_zxCon .lx_zxTit {
+  height: 120px;
+  background: url("../images/lx/lx_jyzxTit.png") no-repeat center;
+}
+.lx_zx .lx_zxCon .lx_zxItem {
+  width: 100%;
+  height: 350px;
+}
+.lx_zx .lx_zxCon .lx_zxItem li {
+  width: 420px;
+  height: 165px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: #f2f2f2;
+}
+.lx_zx .lx_zxCon .lx_zxItem li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.lx_zx .lx_zxCon .lx_zxItem li img {
+  width: 160px;
+  height: 165px;
+}
+.lx_zx .lx_zxCon .lx_zxItem li div {
+  float: right;
+  width: 230px;
+  padding: 15px ;
+  overflow: hidden;
+}
+.lx_zx .lx_zxCon .lx_zxItem li span {
+  float: right;
+  color: #333;
+  text-align: right;
+  font-size: 12px;
+  font-style: italic;
+}
+.lx_zx .lx_zxCon .lx_zxItem li p {
+  float: left;
+  color: #4d4d4d;
+  font-size: 12px;
+  line-height: 20px;
+}
+.lx_coop {
+  width: 100%;
+  height: 820px;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 80px 0;
+}
+.lx_coop .lx_coopCon {
+  width: 1260px;
+  height: 660px;
+  position: relative;
+  margin: 0 auto;
+}
+.lx_coop .lx_coopCon .lx_coopTit {
+  height: 110px;
+  background: url("../images/lx/lx_coopEnt.png") no-repeat center;
+}
+.lx_coop .lx_coopCon .lx_coopItem {
+  width: 100%;
+  height: 480px;
+  position: absolute;
+  left: 0px;
+  bottom: 70px;
+}
+.lx_coop .lx_coopCon .lx_coopItem a {
+  float: left;
+  width: 138px;
+  height: 138px;
+  border: 1px solid #b5b5b5;
+  margin: 20px 20px 0;
+  background: #ffffff;
+  font-size: 0px;
+}
+.lx_coop .lx_coopCon .lx_coopItem a img {
+  width: 100%;
+  height: 100%;
+}
+.lx_coop .lx_coopCon .lx_dirBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 0px;
+  left: 0px;
+  margin: 0 auto;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+.lx_coop .lx_coopCon .lx_dirBtn .lx_btnL {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin: 0 4px;
+  background: url("../images/lx/lx_btnL.png") no-repeat left top;
+}
+.lx_coop .lx_coopCon .lx_dirBtn .lx_btnR {
+  width: 20px;
+  height: 20px;
+  float: left;
+  background: url("../images/lx/lx_btnR.png") no-repeat left top;
+}
