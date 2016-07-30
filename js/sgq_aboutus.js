@@ -9,5 +9,8 @@ $(function () {
     $('.sgq-honour-img').eq(0).css({marginLeft:0});
         //轮播时要再次执行（节点轮播）
     $('.sgq-honour-img:nth-child(5n)').css({marginRight:0});
+    var sgq_honour_img=$(".sgq-honour-img");
+    var sgq_honour_imgW=sgq_honour_img[0].offsetWidth+72;
+    $('.sgq-honour-img-box').css({width:(sgq_honour_img.length*sgq_honour_imgW-72)});
     // 底部荣誉布局结束
 })
