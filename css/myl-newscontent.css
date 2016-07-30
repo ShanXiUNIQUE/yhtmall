@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  list-style: none;
+}
+
+.newscontent {
+  padding-top: 20px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.newscontent .title:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.newscontent .title .titleimg {
+  float: left;
+}
+
+.newscontent .title .nav {
+  float: right;
+  width: 280px;
+  height: 60px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  padding-left: 20px;
+}
+
+.newscontent .title .nav li {
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.newscontent .title .nav li .move {
+  color: #155c85;
+}
+
+.newscontent .title .nav li a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.newscontent .circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #dedede;
+  position: absolute;
+}
+
+.newscontent .circle.lt {
+  top: -3px;
+  left: 0;
+}
+
+.newscontent .circle.rt {
+  top: -3px;
+  right: 0;
+}
+
+.newscontent .circle.lb {
+  bottom: -3px;
+  left: 0;
+}
+
+.newscontent .circle.rb {
+  bottom: -3px;
+  right: 0;
+}
+
+.newscontent .content-wrapper {
+  margin-top: 16px;
+  border-radius: 10px;
+  border: 1px solid #d2d2d2;
+  padding: 36px 30px;
+}
+
+.newscontent .content-wrapper .title {
+  font-size: 20px;
+}
+
+.newscontent .content-wrapper .description {
+  color: #808080;
+  font-size: 14px;
+  border-bottom: 1px solid #d2d2d2;
+  line-height: 50px;
+}
+
+.newscontent .content-wrapper .content {
+  padding-top: 20px;
+  color: #808080;
+}
+
+.newscontent .content-wrapper .content p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.newscontent .content-wrapper .time {
+  position: absolute;
+  color: #808080;
+  font-size: 12px;
+  top: 70px;
+  right: 40px;
+}
+
+.newscontent .content-wrapper .nav {
+  height: 52px;
+  border-top: 1px solid #dedede;
+  border-bottom: 1px solid #dedede;
+  font-size: 13px;
+}
+
+.newscontent .content-wrapper .nav li {
+  line-height: 52px;
+}
+
+.newscontent .content-wrapper .nav li a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.newscontent .content-wrapper .nav .prev {
+  float: left;
+}
+
+.newscontent .content-wrapper .nav .next {
+  float: right;
+}
+
+.newscontent .content-wrapper .nav .move {
+  color: #155c85;
+}
