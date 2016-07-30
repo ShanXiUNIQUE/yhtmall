@@ -1,0 +1,254 @@
+.sgq-aboutUs .sgq-main {
+  position: relative;
+  width: 1200px;
+  padding-top: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sgq-aboutUs .sgq-scholl {
+  margin-top: 105px;
+  padding-bottom: 313px;
+}
+.sgq-aboutUs .sgq-scholl .sgq-school-title {
+  width: 562px;
+  height: 164px;
+  margin-top: -57px;
+  margin-left: -25px;
+  background: url("../images/sgq/sgq-school.png");
+}
+.sgq-aboutUs .sgq-scholl .sgq-school-con {
+  margin-top: 80px;
+  width: 700px;
+  color: #747474;
+}
+.sgq-aboutUs .sgq-scholl .sgq-school-con p {
+  margin-top: 40px;
+  line-height: 28px;
+}
+.sgq-aboutUs .sgq-scholl .sgq-tv {
+  position: absolute;
+  top: 35px;
+  right: -86px;
+  width: 566px;
+  height: 436px;
+  background: url("../images/sgq/sgq-tv.png");
+}
+.sgq-aboutUs .sgq-scholl .sgq-quotation {
+  position: absolute;
+  bottom: -313px;
+  left: 600px;
+  width: 195px;
+  height: 175px;
+  background: url("../images/sgq/sgq-quotation.jpg");
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-title {
+  width: 538px;
+  height: 158px;
+  margin-top: -144px;
+  margin-left: -25px;
+  background: url("../images/sgq/sgq-environment.png");
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-left-x {
+  position: absolute;
+  top: -8px;
+  left: 488px;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  line-height: 21px;
+  background: #e11544;
+  color: #fff;
+  z-index: -1;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-left {
+  position: absolute;
+  top: -8px;
+  left: 488px;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 1;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-right-x {
+  position: absolute;
+  top: -8px;
+  left: 516px;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  line-height: 21px;
+  background: #0ebbed;
+  color: #fff;
+  z-index: -1;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-right {
+  position: absolute;
+  top: -8px;
+  left: 516px;
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+  z-index: 1;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 446px;
+  margin-top: 48px;
+  overflow-x: hidden;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con {
+  width: 626px;
+  height: 442px;
+  border: 2px solid #0d91c8;
+  float: left;
+  margin-right: 20px;
+  border-radius: 2px;
+  behavior: url(border-radius.htc);
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con img {
+  width: 100%;
+  height: 356px;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con p {
+  color: #878787;
+  text-align: center;
+  position: relative;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con .sgq-environment-gsqt {
+  line-height: 26px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con .sgq-environment-en {
+  line-height: 20px;
+  font-size: 12px;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con .sgq-environment-en:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 162px;
+  display: inline-block;
+  width: 68px;
+  height: 1px;
+  background: #0ebbed;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con .sgq-environment-en:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 162px;
+  display: inline-block;
+  width: 68px;
+  height: 1px;
+  background: #0ebbed;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con .sgq-environment-add {
+  display: block;
+  color: #f0974c;
+  position: absolute;
+  top: -6px;
+  right: 237px;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-con-scene .sgq-environment-con-box {
+  overflow: hidden;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-lisbox {
+  margin-top: 38px;
+  overflow: hidden;
+  text-align: center;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-lisbox .sgq-environment-lis {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  behavior: url(border-radius.htc);
+  background: #f6d52b;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.sgq-aboutUs .sgq-environment .sgq-environment-lisbox .sgq-environment-lis.sgq-active {
+  background: #e11543;
+}
+.sgq-aboutUs .sgq-honour {
+  position: relative;
+  margin-top: 180px;
+  background: #0d91c8;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-title {
+  margin-left: -40px;
+  width: 556px;
+  height: 166px;
+  background: url("../images/sgq/sgq-teaching.png");
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-con {
+  position: absolute;
+  top: 96px;
+  left: 551px;
+  color: #fff;
+  text-align: left;
+  width: 684px;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-img-scene {
+  width: 1200px;
+  margin: 50px auto;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-img-scene .sgq-honour-img-box {
+  overflow: hidden;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-img-scene .sgq-honour-img-box img {
+  width: 165px;
+  margin-left: 8px;
+  height: 225px;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-img-scene .sgq-honour-img-box .sgq-honour-p1 {
+  font-size: 20px;
+  margin-top: 28px;
+  line-height: 50px;
+  color: #fff;
+  text-align: center;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-img-scene .sgq-honour-img-box .sgq-honour-p2 {
+  width: 144px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-img-scene .sgq-honour-img-box .sgq-honour-img {
+  width: 181px;
+  float: left;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-left {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  margin-left: -650px;
+  width: 20px;
+  height: 54px;
+  background-image: url("../images/sgq/sgq-small.png");
+  background-position: 0 0;
+}
+.sgq-aboutUs .sgq-honour .sgq-honour-right {
+  position: absolute;
+  top: 300px;
+  right: 50%;
+  margin-right: -650px;
+  width: 20px;
+  height: 54px;
+  background-image: url("../images/sgq/sgq-small.png");
+  background-position: -50px 0;
+}
