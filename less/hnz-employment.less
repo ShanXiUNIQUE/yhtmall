@@ -1,0 +1,43 @@
+@w:1200px;
+@url:'../images/hnz/';
+.b1(@color){
+	border:1px solid @color;
+}
+.c(){
+	margin:0 auto;
+}
+
+.hnz-company-box{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	.b1(red);
+	.hnz-company-head{
+		width: @w;
+		height: 162px;
+		background: url("@{url}hnz-company.png") no-repeat 0 67px;
+		.c();
+	}
+	.hnz-company{
+		.bg(orange)
+		height: 558px;
+		width: @w;
+		margin:90px auto 0;
+	}
+	.hnz-lbg{
+		width: 100%;
+		height: 693px;
+		background: #e11543;
+		position: absolute;
+		left:-50%;
+		margin-left: -600px;
+	}
+	.hnz-lbg-s{
+		position: absolute;
+		left:50%;
+		width: 944px;
+		height: 693px;
+		margin-left:-601px;
+		background: url("@{url}hnz-qygsbg.png") no-repeat 0 0;
+	}
+}
