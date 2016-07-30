@@ -111,18 +111,18 @@
   line-height: 29px;
 }
 .kf_fenye .kf_pageNum {
-  background: url(../images/small_img.png);
+  background: url(../images/zkf/small_img.png);
   background-position: -208px -34px;
 }
 .kf_fenye .kf_pageName {
   width: 77px;
-  background: url(../images/small_img.png);
+  background: url(../images/zkf/small_img.png);
   background-position: -208px 0;
 }
 .kf_fenye .kf_pageActive {
   width: 35px;
   height: 35px;
-  background: url(../images/small_img.png);
+  background: url(../images/zkf/small_img.png);
   color: #fff;
   line-height: 35px;
   margin-top: -3px;
@@ -131,7 +131,7 @@
  .kf_fenye .kf_pageGo {
   width: 35px;
   height: 35px;
-  background: url(../images/small_img.png);
+  background: url(../images/zkf/small_img.png);
   line-height: 35px;
   background-position: -208px -112px;
 }
