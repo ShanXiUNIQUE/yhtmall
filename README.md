@@ -1,4 +1,4 @@
-# 英汉科技 tmall
+# 硬汉科技 天猫美工项目
 > 此项目前端组只负责前端页面布局、后台有专人负责。
 
 ## 网站适用：PC平台 兼容IE8
@@ -31,6 +31,7 @@
 |--------js/<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----jquery.min.js<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----jquery.lazyload.min.js<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|----swiper.min.js<br>
 |--------index.html<br>
 |--------about.html<br>
 |--------news.html<br>
@@ -56,6 +57,7 @@
 ## 工具库
 - jQuery v1.12.4
 - 可使用jquery插件、必须有插件说明 接口必须要有描述
+- swiper插件 2.0版本 文档参考2.0 http://2.swiper.com.cn/
 
 ## 优化
 - 小图标统一采用图片精灵
