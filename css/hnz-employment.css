@@ -1,8 +1,10 @@
+body {
+  overflow-x: hidden;
+}
 .hnz-company-box {
   width: 100%;
-  height: 600px;
+  height: 976px;
   position: relative;
-  border: 1px solid #ff0000;
 }
 .hnz-company-box .hnz-company-head {
   width: 1200px;
@@ -13,18 +15,81 @@
 .hnz-company-box .hnz-company {
   height: 558px;
   width: 1200px;
-  margin: 0 auto;
+  margin: 90px auto 0;
   position: absolute;
   z-index: 99;
   top: 162px;
   left: 0;
-  background: blue;
   right: 0;
+  overflow: hidden;
+}
+.hnz-company-box .hnz-company .hnz-btn {
+  width: 128px;
+  height: 57px;
+  position: absolute;
+  z-index: 9999;
+  right: 0;
+  bottom: 0;
+}
+.hnz-company-box .hnz-company .hnz-btn div {
+  width: 57px;
+  height: 57px;
+  text-align: center;
+  line-height: 57px;
+  color: #fff;
+  font-size: 44px;
+}
+.hnz-company-box .hnz-company .hnz-btn .hnz-l {
+  background: #e11543;
+  float: left;
+}
+.hnz-company-box .hnz-company .hnz-btn .hnz-r {
+  background: #0ebbed;
+  float: right;
+}
+.hnz-company-box .hnz-company .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 .hnz-company-box .hnz-company-one {
   width: 100%;
   height: 100%;
-  border: 1px solid red;
+  float: left;
+}
+.hnz-company-box .hnz-company-one-l {
+  width: 509px;
+  height: 538px;
+  border: 10px solid #fff;
+  float: left;
+  overflow: hidden;
+}
+.hnz-company-box .hnz-company-one-r {
+  width: 646px;
+  height: 500px;
+  margin-top: 58px;
+  float: right;
+}
+.hnz-company-box .hnz-company-one-r .hnz-head {
+  height: auto;
+  padding-bottom: 80px;
+}
+.hnz-company-box .hnz-company-one-r .hnz-head h3 {
+  font-size: 30px;
+  line-height: 1.5;
+  color: #181616;
+}
+.hnz-company-box .hnz-company-one-r .hnz-head span {
+  display: block;
+  font-size: 20px;
+  font-family: "微软雅黑";
+  font-style: italic;
+}
+.hnz-company-box .hnz-company-one-r p {
+  line-height: 1.5;
+  color: #181616;
+  height: 300px;
+  overflow: hidden;
 }
 .hnz-company-box .hnz-lbg {
   width: 100%;
@@ -32,13 +97,302 @@
   background: #e11543;
   position: absolute;
   left: -50%;
-  margin-left: -600px;
+  margin-left: -840px;
 }
 .hnz-company-box .hnz-lbg-s {
   position: absolute;
   left: 50%;
   width: 944px;
   height: 693px;
-  margin-left: -601px;
+  margin-left: -841px;
   background: url("../images/hnz/hnz-qygsbg.png") no-repeat 0 0;
+}
+.hnz-attestation {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 140px;
+  position: relative;
+}
+.hnz-attestation-head {
+  height: 100px;
+  background: url("../images/hnz/hnz-rzjg.png") no-repeat 0 center;
+}
+.hnz-attestation .hnz-attestation-l {
+  height: 240px;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 170px;
+  font-size: 44px;
+  line-height: 220px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.hnz-attestation .hnz-attestation-r {
+  width: 50px;
+  height: 240px;
+  top: 170px;
+  position: absolute;
+  right: 0;
+  font-size: 44px;
+  line-height: 220px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.hnz-attestation-list {
+  width: 1100px;
+  height: 240px;
+  margin: 70px auto 0;
+  position: relative;
+  overflow: hidden;
+}
+.hnz-attestation-list .swiper-wrapper {
+  width: 1100px;
+  height: 240px;
+}
+.hnz-attestation-list .swiper-slide {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.hnz-attestation-list .hnz-attestation-one {
+  width: 234px;
+  height: 90px;
+  box-shadow: 0 0 5px #ccc;
+  float: left;
+  margin: 5px 20px 40px;
+  text-align: center;
+  line-height: 5;
+}
+.hnz-attestation-list .hnz-attestation-one img {
+  vertical-align: middle;
+}
+.hnz-attestation-list .hnz-attestation-l {
+  height: 220px;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  font-size: 44px;
+  line-height: 220px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.hnz-attestation-list .hnz-attestation-r {
+  width: 50px;
+  height: 220px;
+  position: absolute;
+  right: 0;
+  font-size: 44px;
+  line-height: 220px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+.hnz-job {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+}
+.hnz-job-head {
+  height: 100px;
+  background: url("../images/hnz/hnz-rzjg.png") no-repeat 0 center;
+}
+.hnz-job-list {
+  height: 780px;
+  background: url("../images/hnz/hnz-job-bg.png") no-repeat 0 center;
+  position: relative;
+}
+.hnz-job-list .hnz-job-one {
+  width: 300px;
+  height: 320px;
+  position: absolute;
+}
+.hnz-job-list .hnz-job-one.iup .hnz-job-img {
+  top: 0;
+}
+.hnz-job-list .hnz-job-one.iup .hnz-job-content {
+  top: 115px;
+}
+.hnz-job-list .hnz-job-one.idown .hnz-job-img {
+  top: auto;
+  bottom: 0;
+}
+.hnz-job-list .hnz-job-one.idown .hnz-job-content {
+  top: auto;
+  bottom: 115px;
+}
+.hnz-job-list .hnz-job-one .hnz-job-img {
+  width: 91px;
+  height: 91px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px #aaa;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 35px;
+  position: absolute;
+}
+.hnz-job-list .hnz-job-one .hnz-job-img img {
+  width: 100%;
+}
+.hnz-job-list .hnz-job-one .hnz-job-content {
+  position: absolute;
+  width: 100%;
+  max-height: 229px;
+}
+.hnz-job-list .hnz-job-one .hnz-job-content .hnz-job-title {
+  width: 100%;
+  height: 54px;
+}
+.hnz-job-list .hnz-job-one .hnz-job-content .hnz-job-title span {
+  float: left;
+  width: 64px;
+  height: 44px;
+  font-size: 56px;
+  color: #0ebbed;
+  font-family: arial;
+  font-weight: bold;
+  line-height: 44px;
+}
+.hnz-job-list .hnz-job-one .hnz-job-content .hnz-job-title h4 {
+  font-size: 16px;
+  height: 22px;
+  line-height: 22px;
+  color: #333;
+}
+.hnz-job-list .hnz-job-one .hnz-job-content .hnz-job-title p {
+  height: 22px;
+  line-height: 22px;
+  color: #0ebbed;
+}
+.hnz-job-list .hnz-job-one .hnz-job-content .hnz-job-title:after {
+  content: "";
+  margin-top: 8px;
+  width: 50px;
+  height: 2px;
+  background: #d9d9d9;
+  display: block;
+}
+.hnz-job-list .hnz-job-one .hnz-job-content .hnz-job-cont {
+  padding: 12px 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.hnz-person {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  height: 600px;
+}
+.hnz-person-head {
+  height: 100px;
+  background: url("../images/hnz/hnz-jyxyxx.png") no-repeat 0 center;
+}
+.hnz-person-list.swiper-container {
+  width: 100%;
+  height: 440px;
+  overflow: hidden;
+}
+.hnz-person-list.swiper-container .swiper-wrapper {
+  height: 630px;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide {
+  width: 20%;
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-photo {
+  width: 210px;
+  height: 252px;
+  overflow: hidden;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-photo img {
+  width: 100%;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info {
+  width: 184px;
+  height: 182px;
+  border-top: 1px solid #06a3e7;
+  background: #fff;
+  box-shadow: 0 5px  3px 0 #888;
+  position: absolute;
+  top: 240px;
+  left: 12px;
+  overflow: hidden;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-name {
+  padding-left: 20px;
+  height: 44px;
+  line-height: 44px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-zw,
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-zy {
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-zy {
+  margin-bottom: 12px;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-company {
+  border-top: 1px solid #aaa;
+  height: 38px;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 44px;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-xz {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-xz b {
+  font-size: 30px;
+  line-height: 32px;
+  font-style: italic;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info .hnz-info-xz span {
+  line-height: 32px;
+  float: right;
+}
+.hnz-person-list.swiper-container .swiper-wrapper .swiper-slide .hnz-person-info:hover:before {
+  content: "";
+  width: 70px;
+  height: 3px;
+  top: -1px;
+  background: #e11544;
+  position: absolute;
+}
+.hnz-person .pagination {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+.hnz-person .pagination .swiper-pagination-switch {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border: 1px solid #fff;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.hnz-person .pagination .swiper-active-switch {
+  background: #fff;
+}
+.hnz-person .hnz-blue-sj {
+  position: absolute;
+  left: 50%;
+  width: 1684px;
+  height: 1167px;
+  margin-left: -408px;
+  background: url("../images/hnz/hnz-jybg.png") no-repeat 0 0;
+  z-index: -1;
+  bottom: 0;
 }

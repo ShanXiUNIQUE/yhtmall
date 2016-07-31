@@ -6,12 +6,14 @@
 .c(){
 	margin:0 auto;
 }
-
+body{
+	overflow-x: hidden;
+}
+//名企
 .hnz-company-box{
 	width: 100%;
-	height: 600px;
+	height: 976px;
 	position: relative;
-	.b1(red);
 	.hnz-company-head{
 		width: @w;
 		height: 162px;
@@ -22,23 +24,79 @@
 
 		height: 558px;
 		width: @w;
-		margin:0 auto;
+		margin:90px auto 0;
 		position: absolute;
 		z-index: 99;
 		top:162px;
 		left:0;
-		background: blue;
 		right:0;
+		overflow: hidden;
+		.hnz-btn{
+			width: 128px;
+			height: 57px;
+			position: absolute;
+			z-index: 9999;
+			right:0;
+			bottom:0;
+			div{
+				width: 57px;
+				height: 57px;
+				text-align: center;
+				line-height: 57px;
+				color:#fff;
+				font-size: 44px;
+			}
+			.hnz-l{
+				background: #e11543;
+				float: left;
+			}
+			.hnz-r{
+				background: #0ebbed;
+				float: right;
+			}
+		}
+		.swiper-wrapper{
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
 		&-one{
 			width: 100%;
 			height: 100%;
-			// position: absolute;
-			border:1px solid red;
+			float: left;
 			&-l{
-
+				width:509px;
+				height: 538px;
+				border:10px solid #fff;
+				float: left;
+				overflow: hidden;
 			}
 			&-r{
-				
+				width: 646px;
+				height: 500px;
+				margin-top: 58px;
+				float: right;
+				.hnz-head{
+					height: auto;
+					padding-bottom: 80px;
+					h3{
+						font-size:30px;
+						line-height: 1.5;
+						color: #181616;
+					}
+					span{
+						display: block;
+						font-size: 20px;
+						font-family: "微软雅黑";
+						font-style: italic;
+					}
+				}
+				p{
+					line-height: 1.5;
+					color:#181616;
+					height: 300px;
+					overflow: hidden;
+				}
 			}
 		}
 	}
@@ -48,14 +106,316 @@
 		background: #e11543;
 		position: absolute;
 		left:-50%;
-		margin-left: -600px;
+		margin-left: -840px;
 	}
 	.hnz-lbg-s{
 		position: absolute;
 		left:50%;
 		width: 944px;
 		height: 693px;
-		margin-left:-601px;
+		margin-left:-841px;
 		background: url("@{url}hnz-qygsbg.png") no-repeat 0 0;
+	}
+}
+
+//认证
+.hnz-attestation{
+	width: @w;
+	height: auto;
+	.c();
+	margin-bottom: 140px;
+	position: relative;
+	&-head{
+		height: 100px;
+		background: url("@{url}hnz-rzjg.png") no-repeat 0 center;
+	}
+	.hnz-attestation-l{
+		height: 240px;
+		width: 50px;
+		position: absolute;
+		left:0;
+		top:170px;
+		font-size: 44px;
+		line-height: 220px;
+		font-weight: bold;
+		text-align: center;
+		cursor:pointer;
+	}
+	.hnz-attestation-r{
+		width: 50px;
+		height: 240px;
+		top:170px;
+		position: absolute;
+		right:0;
+		font-size: 44px;
+		line-height: 220px;
+		font-weight: bold;
+		text-align: center;
+		cursor:pointer;
+	}
+
+	&-list{
+		width: 1100px;
+		height: 240px;
+		margin: 70px auto 0;
+		position: relative;
+		overflow: hidden;
+		.swiper-wrapper{
+			width: 1100px;
+			height: 240px;
+		}
+		.swiper-slide{
+			width: 100%;
+			height: 100%;
+			float: left;
+		}
+		.hnz-attestation-one{
+			width: 234px;
+			height: 90px;
+			box-shadow: 0 0 5px #ccc;
+			float: left;
+			margin:5px 20px 40px;
+			text-align: center;
+			line-height: 5;
+			img{
+				vertical-align: middle;
+			}
+
+		}
+		.hnz-attestation-l{
+			height: 220px;
+			width: 50px;
+			position: absolute;
+			left:0;
+			font-size: 44px;
+			line-height: 220px;
+			font-weight: bold;
+			text-align: center;
+			cursor:pointer;
+		}
+		.hnz-attestation-r{
+			width: 50px;
+			height: 220px;
+			position: absolute;
+			right:0;
+			font-size: 44px;
+			line-height: 220px;
+			font-weight: bold;
+			text-align: center;
+			cursor:pointer;
+		}
+	}
+}
+//就业流程
+.hnz-job{
+	width: @w;
+	height: auto;
+	.c();
+	position: relative;
+	// height: 600px;
+	&-head{
+		height: 100px;
+		background: url("@{url}hnz-rzjg.png") no-repeat 0 center;
+	}
+	&-list{
+		height: 780px;
+		background: url("@{url}hnz-job-bg.png") no-repeat 0 center;
+		position: relative;
+		.hnz-job-one{
+			width: 300px;
+			height: 320px;
+			position: absolute;
+			&.iup{
+				.hnz-job-img{
+					top:0;
+				}
+				.hnz-job-content{
+					top:115px;
+				}
+			}
+			&.idown{
+				.hnz-job-img{
+					top:auto;
+					bottom:0;
+				}
+				.hnz-job-content{
+					top:auto;
+					bottom:115px;
+				}
+			}
+			.hnz-job-img{
+				width: 91px;
+				height: 91px;
+				border:2px solid #fff;
+				box-shadow: 0 0 5px #aaa;
+				overflow: hidden;
+				border-radius: 50%;
+				margin-left:35px;
+				img{
+					width: 100%;
+				}
+				position: absolute;
+			}
+			.hnz-job-content{
+				position: absolute;
+				width:100%;
+				max-height: 229px;
+				.hnz-job-title{
+					width: 100%;
+					height: 54px;
+					span{
+						float: left;
+						width: 64px;
+						height: 44px;
+						font-size: 56px;
+						color:#0ebbed;
+						font-family: arial;
+						font-weight: bold;
+						line-height: 44px;
+					}
+					h4{
+						font-size: 16px;
+						height: 22px;
+						line-height: 22px;
+						color:#333;
+					}
+					p{
+						height: 22px;
+						line-height: 22px;
+						color:#0ebbed;
+					}
+					&:after{
+						content: "";
+						margin-top: 8px;
+						width: 50px;
+						height: 2px;
+						background: #d9d9d9;
+						display: block;
+					}
+				}
+				.hnz-job-cont{
+					padding:12px 0;
+					line-height: 1.5;
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+}
+
+//就业学员
+.hnz-person{
+	width: @w;
+	height: auto;
+	.c();
+	position: relative;
+	height: 600px;
+	&-head{
+		height: 100px;
+		background: url("@{url}hnz-jyxyxx.png") no-repeat 0 center;
+	}
+	&-list.swiper-container{
+		width: 100%;
+		height: 440px;
+		overflow: hidden;
+		.swiper-wrapper{
+			height: 630px;
+			.swiper-slide{
+				width: 20%;
+				height: 100%;
+				float: left;
+				position: relative;
+				.hnz-person-photo{
+					width: 210px;
+					height: 252px;
+					overflow: hidden;
+					img{
+						width: 100%;
+					}
+				}
+				.hnz-person-info{
+					width: 184px;
+					height: 182px;
+					border-top:1px solid #06a3e7;
+					background: #fff;
+					box-shadow: 0 5px  3px 0 #888;
+					position: absolute;
+					top:240px;
+					left:12px;
+					overflow: hidden;
+					.hnz-info-name{
+						padding-left:20px;
+						height: 44px;
+						line-height: 44px;
+						font-size: 16px;
+						font-weight: bold;
+					}
+					.hnz-info-zw,.hnz-info-zy{
+						padding-left:20px;
+						font-size: 14px;
+						line-height: 1.5;
+
+					}
+					.hnz-info-zy{
+						margin-bottom: 12px;
+					}
+					.hnz-info-company{
+						border-top:1px solid #aaa;
+						height: 38px;
+						padding-left:20px;
+						font-size: 14px;
+						line-height: 44px;
+					}
+					.hnz-info-xz{
+						padding-left:20px;
+						padding-right:20px;
+						b{
+							font-size: 30px;
+							line-height: 32px;
+							font-style: italic;
+						}
+						span{
+							line-height: 32px;
+							float: right;
+						}
+					}
+					&:hover:before{
+						content: "";
+						width: 70px;
+						height: 3px;
+						top:-1px;
+						background: #e11544;
+						position: absolute;
+					}
+				}
+			}
+		}
+	}
+	.pagination{
+		width: 100%;
+		height: 30px;
+		text-align: center;
+		.swiper-pagination-switch{
+			width: 8px;
+			height: 8px;
+			display: inline-block;
+			border:1px solid #fff;
+			margin-right:10px;
+			border-radius: 50%;
+		}
+		.swiper-active-switch{
+			background: #fff;
+		}
+	}
+	.hnz-blue-sj{
+		position: absolute;
+		left:50%;
+		width: 1684px;
+		height: 1167px;
+		margin-left:-408px;
+		background: url("@{url}hnz-jybg.png") no-repeat 0 0;
+		z-index: -1;
+		bottom:0;
 	}
 }
