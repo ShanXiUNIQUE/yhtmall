@@ -33,6 +33,7 @@
 	background: url(../images/lxr/lxr_xyworks.png);
 }
 
+/*学员照片*/
 .lxr_hui{
 	width: 100%;
 	height: 39px;
@@ -137,6 +138,7 @@
 }
 
 
+/*团队照片*/
 
 .lxr_team_photo{
 	width: 1200px;
@@ -246,7 +248,7 @@
 
 
 
-
+/*学生作品*/
 
 .lxr_stuwork{
 	width: 100%;
@@ -282,7 +284,9 @@
 	width: 1204px;
 	height: 408px;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 90px;
+	position: relative;
+	z-index: 2;
 }
 
 .lxr_start{
@@ -292,8 +296,22 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
-	z-index: 2;
 }
+.lxr_start .lxr_xlb_box{
+	width: 301px;
+	height: 408px;
+	cursor: pointer;
+}
+
+.lxr_start .lxr_xlb_box:hover{
+	width: 359px;
+	height: 454px;
+	position: relative;
+	z-index: 2;
+	top: -22px;left: -19px;
+	border: 1px solid #ACB5B9;
+}
+
 
 .lxr_xlb1{
 	background-image: url(../images/lxr/lxr_xlb1.jpg);
@@ -307,3 +325,90 @@
 .lxr_xlb4{
 	background-image: url(../images/lxr/lxr_xlb4.jpg);
 }
+
+.lxr_start .lxr_lbsmk{
+	width: 317px;
+	height: 163px;
+	padding-top: 17px;
+	padding-left: 17px;
+	position: absolute;
+	bottom: -35px;left: 12px;
+	background: #343C41;
+	display: none;
+	border: 1px solid #676061;
+}
+
+.lxr_start  .lxr_displayb{
+	display: block;
+}
+
+
+.lxr_span1{
+	color: #31C5FC;
+	font-size: 20px;
+}
+.lxr_span2{
+	color: #fff;
+	font-weight: bold;
+}
+.lxr_span3{
+	color: #AEAAAA;
+}
+.lxr_xian{
+	width: 30px;
+	height: 1px;
+	background: #5D5D5D;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.lxr_span4{
+	color: #9A9B9C;
+}
+.lxr_span5{
+	cursor: pointer;
+	display: block;
+	height: 24px;
+	width: 80px;
+	color: #838485;
+	text-align: center;
+	line-height: 22px;
+	margin-top: 5px;
+	background-image: url(../images/lxr/lxr_more.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.lxr_web{
+	position: absolute;
+	top: 15px;right: 33px;
+	width: 62px;height: 28px;
+	background-image: url(../images/lxr/lxr_web.png);
+}
+
+
+/*遮罩*/
+.lxr_sw_zhezhao{
+	width: 100%;
+	background: #000;
+	opacity: 0.85;
+	position: absolute;
+	top: 0;left: 0;
+	z-index: 10;
+	display: none;
+}
+
+.lxr_details{
+	width: 1011px;
+	background: #fff;
+	position: relative;
+	top: 700px;left: 0;
+	z-index: 10;
+	margin: 0 auto;
+	overflow: hidden;
+	display: none;
+}
+
+.lxr_displayb{
+	display: block;
+}
+
