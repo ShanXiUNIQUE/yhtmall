@@ -1,0 +1,267 @@
+.wlh-origin-img {
+  width: 113px;
+  height: 27px;
+  margin: 0 auto;
+  padding: 29px 0 0 111px;
+  background: url("../images/wlh/wlh_title.png") no-repeat center top;
+  font-style: italic;
+  color: #e31642;
+}
+.wlh-course-origin {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: url("../images/wlh/wlh_keti_bg.png") no-repeat center top;
+}
+.wlh-course-origin .wlh-origin-con {
+  width: 1142px;
+  height: 153px;
+  line-height: 2em;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 48px;
+}
+.wlh-professionbox {
+  width: 100%;
+  height: 641px;
+  padding-top: 22px;
+  background: url("../images/wlh/wlh_zhuanye_bg.png") no-repeat left top;
+  font-family: Arial, "微软雅黑";
+}
+.wlh-professionbox .wlh-profession {
+  width: 1270px;
+  height: 100%;
+  margin: 0 auto;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con {
+  margin-top: 55px;
+  width: 100%;
+  height: 529px;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con .wlh-profession-con-left {
+  width: 622px;
+  height: 489px;
+  float: left;
+  background: url("../images/wlh/wlh_zhuanye_leftbg.png") no-repeat right bottom;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con .wlh-profession-con-right {
+  width: 524px;
+  height: 455px;
+  float: right;
+  padding-top: 34px;
+  position: relative;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con .wlh-profession-con-right .wlh-profession-word {
+  margin-top: 18px;
+  line-height: 2em;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con .wlh-profession-con-right .wlh-profession-bottom > div {
+  float: left;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con .wlh-profession-con-right .wlh-profession-bottom .wlh-profession-bottom-right {
+  margin-left: 12px;
+  font-size: 12px;
+  font-family: Arial;
+  color: #8f8f8f;
+  line-height: 1.5em;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con .wlh-profession-con-right .wlh-profession-topline {
+  width: 42px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wlh-professionbox .wlh-profession .wlh-profession-con .wlh-profession-con-right .wlh-profession-bottomline {
+  width: 42px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+}
+.wlh-jidibox {
+  width: 100%;
+  height: 594px;
+  background: url("../images/wlh/wlh_jidi.png") no-repeat left top;
+  overflow: hidden;
+}
+.wlh-jidibox .wlh-jidi {
+  width: 1270px;
+  height: 595px;
+  margin: 0 auto;
+  position: relative;
+}
+.wlh-jidibox .wlh-jidi .wlh-jidi-bannerbox {
+  width: 100%;
+  height: 458px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 41px;
+}
+.wlh-jidibox .wlh-jidi .wlh-jidi-bannerbox .wlh-jidi-banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 458px;
+}
+.wlh-jidibox .wlh-jidi .wlh-jidi-bannerbox .wlh-jidi-banner .wlh-jidili {
+  width: 284px;
+  height: 408px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 22px;
+  overflow: hidden;
+}
+.wlh-jidibox .wlh-jidi .wlh-jidi-bannerbox .wlh-jidi-banner .wlh-jidili img {
+  width: 100%;
+  height: 100%;
+}
+.wlh-jidibox .wlh-jidi .wlh-banner-left {
+  width: 77px;
+  height: 408px;
+  background: url("../images/wlh/wlh_left.png") no-repeat center top;
+  position: absolute;
+  left: -57px;
+  top: 119px;
+  cursor: pointer;
+}
+.wlh-jidibox .wlh-jidi .wlh-banner-right {
+  width: 77px;
+  height: 408px;
+  background: url("../images/wlh/wlh_right.png") no-repeat center top;
+  position: absolute;
+  right: -57px;
+  top: 119px;
+  cursor: pointer;
+}
+.wlh_moshibox {
+  width: 100%;
+  height: 549px;
+  background: url("../images/wlh/wlh_moshi.png") no-repeat left top;
+}
+.wlh_moshibox .wlh_moshi {
+  width: 1270px;
+  hegiht: 549px;
+  margin: 0 auto;
+}
+.wlh_moshibox .wlh_moshi .wlh_moshi_con {
+  width: 100%;
+  height: 471px;
+  overflow: hidden;
+}
+.wlh_moshibox .wlh_moshi .wlh_moshi_con .wlh_moshi_con_block {
+  width: 546px;
+  height: 124px;
+  float: left;
+  padding-top: 89px;
+  margin-right: 92px;
+}
+.wlh_moshibox .wlh_moshi .wlh_moshi_con .wlh_moshi_con_block .wlh_moshi_block_left {
+  float: left;
+  width: 135px;
+  height: 106px;
+}
+.wlh_moshibox .wlh_moshi .wlh_moshi_con .wlh_moshi_con_block .wlh_moshi_block_right {
+  float: right;
+  width: 411px;
+  line-height: 2em;
+}
+.wlh_moshibox .wlh_moshi .wlh_moshi_con .wlh_moshi_con_block .wlh_moshi_block_right h4 {
+  font-weight: normal;
+}
+.wlh_moshibox .wlh_moshi .wlh_moshi_con .wlh_moshi_con_block .wlh_moshi_block_right p {
+  font-size: 14px;
+}
+.wlh-youshibox {
+  width: 100%;
+  height: 333px;
+  background: url("../images/wlh/wlh_youshi.png") no-repeat right top;
+}
+.wlh-youshibox .wlh-youshi {
+  width: 1270px;
+  height: 333px;
+  margin: 0 auto;
+}
+.wlh-youshibox .wlh-youshi .wlh-youshi-con {
+  width: 100%;
+  height: 171px;
+  margin-top: 65px;
+}
+.wlh-youshibox .wlh-youshi .wlh-youshi-con > div {
+  width: 375px;
+  height: 139px;
+  float: left;
+  margin-right: 72px;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 32px;
+}
+.wlh-youshibox .wlh-youshi .wlh-youshi-con .wlh-youshi-con-block3 {
+  margin-right: 0;
+}
+.wlh-youshibox .wlh-youshi .wlh-youshi-con .wlh-youshi-con-block1:hover {
+  background: url("../images/wlh/wlh_youshi1bg.png") no-repeat;
+}
+.wlh-youshibox .wlh-youshi .wlh-youshi-con .wlh-youshi-con-block2:hover {
+  background: url("../images/wlh/wlh_youshi2bg.png") no-repeat;
+}
+.wlh-youshibox .wlh-youshi .wlh-youshi-con .wlh-youshi-con-block3:hover {
+  background: url("../images/wlh/wlh_youshi3bg.png") no-repeat;
+}
+.wlh-jiangxuebox {
+  width: 100%;
+  height: 671px;
+  background: url("../images/wlh/wlh_jiangxuebg.png") no-repeat right top;
+  overflow: hidden;
+}
+.wlh-jiangxuebox .wlh-jiangxue {
+  width: 1270px;
+  height: 671px;
+  margin: 0 auto;
+  position: relative;
+}
+.wlh-jiangxuebox .wlh-jiangxue .wlh-jiangxue-bannerbox {
+  width: 100%;
+  height: 458px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 41px;
+}
+.wlh-jiangxuebox .wlh-jiangxue .wlh-jiangxue-bannerbox .wlh-jiangxue-banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 458px;
+}
+.wlh-jiangxuebox .wlh-jiangxue .wlh-jiangxue-bannerbox .wlh-jiangxue-banner .wlh-jiangxueli {
+  width: 284px;
+  height: 408px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 22px;
+  overflow: hidden;
+}
+.wlh-jiangxuebox .wlh-jiangxue .wlh-jiangxue-bannerbox .wlh-jiangxue-banner .wlh-jiangxueli img {
+  width: 100%;
+  height: 100%;
+}
+.wlh-jiangxuebox .wlh-jiangxue .wlh-banner-left2 {
+  width: 77px;
+  height: 408px;
+  background: url("../images/wlh/wlh_left.png") no-repeat center top;
+  position: absolute;
+  left: -57px;
+  top: 119px;
+  cursor: pointer;
+}
+.wlh-jiangxuebox .wlh-jiangxue .wlh-banner-right2 {
+  width: 77px;
+  height: 408px;
+  background: url("../images/wlh/wlh_right.png") no-repeat center top;
+  position: absolute;
+  right: -57px;
+  top: 119px;
+  cursor: pointer;
+}
