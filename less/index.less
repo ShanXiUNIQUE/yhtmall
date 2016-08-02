@@ -104,9 +104,6 @@ body{
     position: relative;
   }
   .lx_bannerBox a{
-    position: absolute;
-    left: 0px;
-    top: 0px;
     font-size: 0;
   }
   .lx_bannerBox img{
@@ -123,7 +120,7 @@ body{
     left: 50%;
     margin-left: -65px;
     background: #ffffff;
-    li{
+    span{
       float: left;
       width: 13px;
       height: 13px;
@@ -185,9 +182,6 @@ body{
       .lx_emBoxlist{
         width: @full;
         height: @full;
-        position: absolute;
-        top: 0px;
-        left: 0px;
          .lx_person{
            width: 210px;
            height: 430px;
@@ -331,10 +325,8 @@ body{
            position: absolute;
            left: 23px;
            top: 22px;
+           overflow: hidden;
            li{
-              position: absolute;
-              top: 0;
-              left: 0;
               width: @full;
               font-size: 0;
             }
@@ -345,7 +337,7 @@ body{
 
        }
       .lx_tvBtn{
-        width: 100px;
+        width: 135px;
         height: 15px;
         position: absolute;
         bottom: 5px;
@@ -459,12 +451,10 @@ body{
       height: 470px;
       float: left;
       position: relative;
+      overflow: hidden;
       li{
         width: @full;
         height: @full;
-        position: absolute;
-        top: 0;
-        left: 0;
         overflow: hidden;
         font-size: 0;
         a{
@@ -590,10 +580,9 @@ body{
       width: @full;
       height: 190px;
       float: left;
+      //overflow-x: hidden;
       .lx_teacGro{
-        position: absolute;
-        top: 0px;
-        left: 0px;
+        position: relative;
         width: @full;
         height: @full;
          .lx_groLea{
@@ -702,21 +691,21 @@ body{
   background: #ffffff;
   box-sizing: border-box;
   padding: 80px 0;
+  position: relative;
+  .lx_coopTit{
+    height: 110px;
+    background: url("@{bgL}/lx_coopEnt.png") no-repeat center;
+  }
   .lx_coopCon{
     width: 1260px;
     height: 660px;
     position: relative;
     margin: 0 auto;
-    .lx_coopTit{
-      height: 110px;
-      background: url("@{bgL}/lx_coopEnt.png") no-repeat center;
-    }
+
     .lx_coopItem{
       width: @full;
-      height: 480px;
-      position: absolute;
-      left: 0px;
-      bottom: 70px;
+      height: 480px!important;
+
       a{
         float: left;
         width: 138px;
@@ -731,29 +720,112 @@ body{
         }
       }
     }
-    .lx_dirBtn{
-      position: absolute;
-      bottom: 20px;
-      right: 0px;
-      left: 0px;
-      margin: 0 auto;
-      width: 50px;
+
+  }
+  .lx_dirBtn{
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 777;
+    .lx_btnL{
+      width: 20px;
       height: 20px;
-      cursor: pointer;
-      .lx_btnL{
-        width: 20px;
-        height: 20px;
-        float: left;
-        margin: 0 4px;
-        background: url("@{bgL}/lx_btnL.png") no-repeat left top;
-      }
-      .lx_btnR{
-        width: 20px;
-        height: 20px;
-        float: left;
-        background: url("@{bgL}/lx_btnR.png") no-repeat left top;
-      }
+      float: left;
+      margin: 0 4px;
+      background: url("@{bgL}/lx_btnL.png") no-repeat left top;
+    }
+    .lx_btnR{
+      width: 20px;
+      height: 20px;
+      float: left;
+      background: url("@{bgL}/lx_btnR.png") no-repeat left top;
     }
   }
 }
+// 底部
+.lx_footer{
+  width: @full;
+  height: 260px;
+  .lx_footerInfo{
+    width: @full;
+    height: 200px;
+    background: @colorB;
+    .lx_infoCon{
+      width: @w;
+      height: @full;
+      margin: 0 auto;
+      .lx_infoLeft{
+        width: 370px;
+        height: 100px;
+        float: left;
+        margin-top: 40px;
+        li{
+          border-left: 1px solid #ffffff;
+          float: left;
+          padding: 0px 20px;
+          margin: 10px 0;
+        }
+        .lx_infolF{
+          border-right: 1px solid #ffffff;
+        }
+        a{
+          font-size: 16px;
+          color: #ffffff;
+          font-family: "微软雅黑";
+        }
+      }
+      .lx_infoRight{
+        width: 620px;
+        height: 120px;
+        float: right;
+        font-size: 12px;
+        color: #ffffff;
+        margin-top: 40px;
+        li{
+          width: 155px;
+          height: @full;
+          float: left;
+          box-sizing: border-box;
+          padding: 0 20px 0 10px;
+          line-height: 20px;
+          img{
+            width: 114px;
+            height: 114px;
+            display: block;
+          }
+          .lx_rightTit{
+            text-align: left;
+            margin-bottom: 25px;
+          }
+          div{
+            text-align: center;
+          }
+        }
+        div{
+          font-size: 14px;
+        }
+      }
+
+
+    }
+
+  }
+  .lx_footerPow{
+    width: @full;
+    height: 60px;
+    background: #1a1a1a;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    font-family: "微软雅黑";
+    font-size: 16px;
+  }
+}
+
+
 

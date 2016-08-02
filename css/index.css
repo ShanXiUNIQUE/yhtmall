@@ -95,9 +95,6 @@ body {
   position: relative;
 }
 .lx_bannerWin .lx_bannerBox a {
-  position: absolute;
-  left: 0px;
-  top: 0px;
   font-size: 0;
 }
 .lx_bannerWin .lx_bannerBox img {
@@ -114,7 +111,7 @@ body {
   margin-left: -65px;
   background: #ffffff;
 }
-.lx_bannerWin .lx_btn li {
+.lx_bannerWin .lx_btn span {
   float: left;
   width: 13px;
   height: 13px;
@@ -175,9 +172,6 @@ body {
 .lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 0px;
 }
 .lx_employ .lx_employCon .lx_emBannerbox .lx_emBoxlist .lx_person {
   width: 210px;
@@ -309,11 +303,9 @@ body {
   position: absolute;
   left: 23px;
   top: 22px;
+  overflow: hidden;
 }
 .lx_dyn .lx_dynCon .lx_dynTV .lx_tvBox .lx_tvShow li {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   font-size: 0;
 }
@@ -321,7 +313,7 @@ body {
   display: block;
 }
 .lx_dyn .lx_dynCon .lx_dynTV .lx_tvBtn {
-  width: 100px;
+  width: 135px;
   height: 15px;
   position: absolute;
   bottom: 5px;
@@ -431,13 +423,11 @@ body {
   height: 470px;
   float: left;
   position: relative;
+  overflow: hidden;
 }
 .lx_pro .lx_proCon .lx_proBox li {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
   overflow: hidden;
   font-size: 0;
 }
@@ -563,9 +553,7 @@ body {
   float: left;
 }
 .lx_teac .lx_teacCon .lx_teacTeam .lx_teacGro {
-  position: absolute;
-  top: 0px;
-  left: 0px;
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -666,6 +654,11 @@ body {
   background: #ffffff;
   box-sizing: border-box;
   padding: 80px 0;
+  position: relative;
+}
+.lx_coop .lx_coopTit {
+  height: 110px;
+  background: url("../images/lx/lx_coopEnt.png") no-repeat center;
 }
 .lx_coop .lx_coopCon {
   width: 1260px;
@@ -673,16 +666,9 @@ body {
   position: relative;
   margin: 0 auto;
 }
-.lx_coop .lx_coopCon .lx_coopTit {
-  height: 110px;
-  background: url("../images/lx/lx_coopEnt.png") no-repeat center;
-}
 .lx_coop .lx_coopCon .lx_coopItem {
   width: 100%;
-  height: 480px;
-  position: absolute;
-  left: 0px;
-  bottom: 70px;
+  height: 480px!important;
 }
 .lx_coop .lx_coopCon .lx_coopItem a {
   float: left;
@@ -697,7 +683,7 @@ body {
   width: 100%;
   height: 100%;
 }
-.lx_coop .lx_coopCon .lx_dirBtn {
+.lx_coop .lx_dirBtn {
   position: absolute;
   bottom: 20px;
   right: 0px;
@@ -706,17 +692,93 @@ body {
   width: 50px;
   height: 20px;
   cursor: pointer;
+  z-index: 777;
 }
-.lx_coop .lx_coopCon .lx_dirBtn .lx_btnL {
+.lx_coop .lx_dirBtn .lx_btnL {
   width: 20px;
   height: 20px;
   float: left;
   margin: 0 4px;
   background: url("../images/lx/lx_btnL.png") no-repeat left top;
 }
-.lx_coop .lx_coopCon .lx_dirBtn .lx_btnR {
+.lx_coop .lx_dirBtn .lx_btnR {
   width: 20px;
   height: 20px;
   float: left;
   background: url("../images/lx/lx_btnR.png") no-repeat left top;
+}
+.lx_footer {
+  width: 100%;
+  height: 260px;
+}
+.lx_footer .lx_footerInfo {
+  width: 100%;
+  height: 200px;
+  background: #0e1d35;
+}
+.lx_footer .lx_footerInfo .lx_infoCon {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoLeft {
+  width: 370px;
+  height: 100px;
+  float: left;
+  margin-top: 40px;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoLeft li {
+  border-left: 1px solid #ffffff;
+  float: left;
+  padding: 0px 20px;
+  margin: 10px 0;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoLeft .lx_infolF {
+  border-right: 1px solid #ffffff;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoLeft a {
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "微软雅黑";
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoRight {
+  width: 620px;
+  height: 120px;
+  float: right;
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoRight li {
+  width: 155px;
+  height: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0 20px 0 10px;
+  line-height: 20px;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoRight li img {
+  width: 114px;
+  height: 114px;
+  display: block;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoRight li .lx_rightTit {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoRight li div {
+  text-align: center;
+}
+.lx_footer .lx_footerInfo .lx_infoCon .lx_infoRight div {
+  font-size: 14px;
+}
+.lx_footer .lx_footerPow {
+  width: 100%;
+  height: 60px;
+  background: #1a1a1a;
+  text-align: center;
+  line-height: 60px;
+  color: #ffffff;
+  font-family: "微软雅黑";
+  font-size: 16px;
 }
