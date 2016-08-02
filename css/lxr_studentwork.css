@@ -2,7 +2,7 @@
 
 .lxr_stuwork_con{
 	width: 100%;
-	height: 2920px;
+	height: 2875px;
 	padding-top: 20px;
 	position: absolute;
 	z-index: 2;
@@ -75,23 +75,29 @@
 	position: relative;
 }
 
-.lxr_stu_photo_title div{
+.lxr_stu_photo_title .swiper-button-prev{
 	width: 21px;height: 21px;
 	color: #fff;
 	text-align: center;
 	line-height: 20px;
 	position: absolute;
-	bottom: -15px;
-}
-
-.lxr_stu_photo_title .lxr_dian_left{
+	top: 60px;
+	cursor: pointer;
 	background-color: #E31642;
 	right: 27px;
 }
-.lxr_stu_photo_title .lxr_dian_right{
+.lxr_stu_photo_title .swiper-button-next{
+	width: 21px;height: 21px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	top: 60px;
+	cursor: pointer;
 	background-color: #00B9EF;
 	right: 0;
 }
+
 
 .lxr_stuph_lunbo{
 	width: 1200px;
@@ -99,28 +105,28 @@
 	margin: 0 auto;
 	position: relative;
 	z-index: 2;
+	overflow: hidden;
+}
+
+.lxr_ul{
+	width: 2400px;
 }
 
 .lxr_stuph_lunbo li{
-	width: 210px;
-	height: 252px;
 	float: left;
-	margin-right: 38px;
 }
-.lxr_stuph_lunbo .lxr_lunboli1{
-	margin-right:37px;
-}
-.lxr_stuph_lunbo .lxr_lunboli5{
-	margin-right: 0;
-}
+
+
 .lxr_stuph_lbdian{
-	width: 92px;height: 10px;
+	width: 200px;height: 10px;
 	margin: 0 auto;
 	margin-top: 40px;
 	position: relative;
 	z-index: 2;
+	cursor: pointer;
 }
-.lxr_stuph_lbdian li{
+
+.lxr_stuph_lbdian .swiper-pagination-switch{
 	float: left;
 	width: 8px;height: 8px;
 	border: 1px solid white;
@@ -129,12 +135,8 @@
 	margin-right: 10px;
 }
 
-.lxr_stuph_lbdian .lxr_lunboli5{
-	margin-right: 0;
-}
-
-.lxr_xuanzhong{
-	background:white;
+.lxr_stuph_lbdian .swiper-active-switch{
+	background: white;
 }
 
 
@@ -249,7 +251,6 @@
 
 
 /*学生作品*/
-
 .lxr_stuwork{
 	width: 100%;
 	height: 705px;
@@ -280,13 +281,20 @@
 	background-image: url(../images/lxr/lxr_stuwork_title.png);
 }
 
-.lxr_xlb{
+.lxr_xlb_tao{
 	width: 1204px;
-	height: 408px;
+	height: 454px;
 	margin: 0 auto;
-	margin-top: 90px;
+	margin-top: 80px;
+	padding-top: 22px;
 	position: relative;
 	z-index: 2;
+	overflow: hidden;
+}
+
+.lxr_xlb{
+	width: 2408px;
+	height: 408px;
 }
 
 .lxr_start{
@@ -300,7 +308,6 @@
 .lxr_start .lxr_xlb_box{
 	width: 301px;
 	height: 408px;
-	cursor: pointer;
 }
 
 .lxr_start .lxr_xlb_box:hover{
@@ -338,10 +345,9 @@
 	border: 1px solid #676061;
 }
 
-.lxr_start  .lxr_displayb{
+.lxr_start .lxr_displayb{
 	display: block;
 }
-
 
 .lxr_span1{
 	color: #31C5FC;
@@ -383,6 +389,29 @@
 	top: 15px;right: 33px;
 	width: 62px;height: 28px;
 	background-image: url(../images/lxr/lxr_web.png);
+}
+
+
+.lxr_stuwk_lbdian{
+	width: 200px;height: 10px;
+	margin: 0 auto;
+	margin-top: 40px;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.lxr_stuwk_lbdian .swiper-pagination-switch{
+	float: left;
+	width: 8px;height: 8px;
+	border: 1px solid white;
+	border-radius: 5px;
+	behavior: url(border-radius.htc);
+	margin-right: 10px;
+}
+
+.lxr_stuwk_lbdian .swiper-active-switch{
+	background: white;
 }
 
 
