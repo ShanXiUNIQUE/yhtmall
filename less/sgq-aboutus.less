@@ -1,5 +1,10 @@
 @width:1200;
+html{
+  width: 100%;
+}
 .sgq-aboutUs{
+  width: 100%;
+  overflow-x: hidden;
   //内宽
   .sgq-main{
     position: relative;
@@ -12,6 +17,15 @@
   .sgq-scholl{
     margin-top: 105px;
     padding-bottom: 313px;
+    position: relative;
+    //红色块
+    .sgq-red{
+      position: absolute;
+      right: 0;
+      left: 50%;
+      top:0;
+      z-index: -1;
+    }
     //标题图
     .sgq-school-title{
       width: 562px;
@@ -67,6 +81,23 @@
 
 //  教学环境
   .sgq-environment{
+    position: relative;
+    //蓝色块
+    .sgq-blue{
+      position: absolute;
+      bottom:-506px;
+      right:50%;
+      margin-right: -869px;
+      z-index: -1;
+    }
+    //黑块
+    .sgq-black{
+      position: absolute;
+      height: 384px;
+      width: 100%;
+      bottom:-890px;
+      background: #3c3c3c;
+    }
     .sgq-environment-title{
         width: 538px;
         height: 158px;
@@ -118,23 +149,54 @@
     }
     .sgq-environment-con-scene{
       width: 1280px;
+      position: relative;
       margin-left: auto;
       margin-right: auto;
-      height: 446px;
+      height: (446+58)*1px;
       margin-top: 48px;
       overflow-x: hidden;
+      .sgq-tv-pagination{
+        position: absolute;
+        z-index: 20;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        margin-left: -7px;
+      }
+      .swiper-pagination-switch {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        behavior: url(border-radius.htc);
+        background: #f6d52b;
+        margin: 0 5px;
+        opacity: 0.8;
+        //border: 1px solid #fff;
+        cursor: pointer;
+      }
+      .swiper-active-switch {
+        background: #e11543;
+      }
       .sgq-environment-con{
-        width: 626px;
-        height: 442px;
-        border: 2px solid #0d91c8;
+        box-sizing: border-box;
+        height: 446px;
         float: left;
-        margin-right: 20px;
+        padding-right: 20px;
         border-radius: 2px;
         behavior: url(border-radius.htc);
-        img{
+        &>div{
           width: 100%;
-          height: 356px;
+          height: 442px;
+          border: 2px solid #0d91c8;
+          overflow: hidden;
+          background: #fff;
+          img{
+            width: 620px;
+            height: 356px;
+          }
         }
+
         p{
           color: #878787;
           text-align: center;
@@ -187,36 +249,35 @@
       .sgq-environment-con-box{
           overflow: hidden;
         }
-
     }
     //  图片轮播控件
-    .sgq-environment-lisbox{
-      margin-top: 38px;
-      overflow: hidden;
-      text-align: center;
-      .sgq-environment-lis{
-        display: inline-block;
-        width: 17px;
-        height: 17px;
-        border-radius: 50%;
-        behavior: url(border-radius.htc);
-        background: #f6d52b;
-        margin-right: 15px;
-        cursor: pointer;
-      }
-      .sgq-environment-lis.sgq-active{
-        background: #e11543;
-      }
-    }
+    //.sgq-environment-lisbox{
+    //  margin-top: 38px;
+    //  overflow: hidden;
+    //  text-align: center;
+    //  .sgq-environment-lis{
+    //    display: inline-block;
+    //    width: 17px;
+    //    height: 17px;
+    //    border-radius: 50%;
+    //    behavior: url(border-radius.htc);
+    //    background: #f6d52b;
+    //    margin-right: 15px;
+    //    cursor: pointer;
+    //  }
+    //  .sgq-environment-lis.sgq-active{
+    //    background: #e11543;
+    //  }
+    //}
   }
 
 //  教学荣誉
   .sgq-honour{
     position: relative;
     margin-top: 180px;
-    background: #0d91c8;
+    //background: #0d91c8;
     .sgq-honour-title{
-      margin-left: -40px;
+      margin-left: -75px;
       width: 556px;
       height: 166px;
       background: url("../images/sgq/sgq-teaching.png");
@@ -224,15 +285,16 @@
     .sgq-honour-con{
       position: absolute;
       top:96px;
-      left: 551px;
+      left: 515px;
       color: #fff;
       text-align: left;
-      width: (1200-516)*1px;
+      width: 640px;
     }
     .sgq-honour-img-scene{
       width: 1200px;
       margin: 50px auto;
       overflow-x: hidden;
+      height: 500px;
       .sgq-honour-img-box{
         overflow: hidden;
         img{
@@ -247,21 +309,21 @@
           line-height: 50px;
           color: #fff;
           text-align: center;
+          width:180px;
         }
         .sgq-honour-p2{
           width: 144px;
-          margin-left: auto;
-          margin-right: auto;
           font-size: 16px;
           line-height: 30px;
           color: #fff;
           text-align: center;
+          margin-left: 20px;
         }
         .sgq-honour-img{
-          width: 181px;
+          //width: 181px;
           float: left;
-          margin-left: 36px;
-          margin-right: 36px;
+          //margin-left: 36px;
+          //margin-right: 36px;
         }
       }
 

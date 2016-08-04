@@ -8,8 +8,13 @@
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/sgq-aboutus.css" />
 	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.lazyload.min.js"></script>
 </head>
 <body class="sgq-aboutUs">
+<!--头部位置-->
+
+
+
 <!--学院详情开始-->
 	<div class="sgq-scholl">
 		<div class="sgq-main">
@@ -22,13 +27,14 @@
 				</div>
 			<!--学院详情电视中轮播-->
 			<div class="sgq-tv">
-				<img src="images/sgq/sgq-tv1.jpg" alt="">
-				<img src="images/sgq/sgq-tv2.jpg" alt="">
+				<img class='lazy' src="" data-original="images/sgq/sgq-tv1.jpg" width="522" height="249" alt="">
+				<img  class='lazy' src="" data-original="images/sgq/sgq-tv2.jpg" width="522" height="249"  alt="">
 				<div class="sgq-tv-zhezhao"></div>
 			</div>
 			<!--底部引号-->
 			<div class="sgq-quotation"></div>
 		</div>
+		<img src="images/sgq/sgq-red.png" alt="" class="sgq-red">
 	</div>
 <!--学院详情结束-->
 
@@ -51,33 +57,72 @@
 	</div>
 	<!--环境图片-->
 	<div class="sgq-environment-con-scene">
-		<div class="sgq-environment-con-box">
+		<div class="sgq-environment-con-box swiper-wrapper">
 			<!--循环图片开始-->
-			<div class="sgq-environment-con">
-				<img src="images/sgq/sgq-environment1.jpg" alt="">
-				<p class="sgq-environment-gsqt">公司前台</p>
-				<p>
-					<span class="sgq-environment-en">Company reception desk</span>
-					<span class="sgq-environment-add">+</span>
-				</p>
+			<div class="sgq-environment-con swiper-slide">
+				<div>
+					<div>
+						<img src="images/sgq/sgq-environment1.jpg" alt="">
+					</div>
+
+					<p class="sgq-environment-gsqt">公司前台</p>
+					<p>
+						<span class="sgq-environment-en">Company reception desk</span>
+						<span class="sgq-environment-add">+</span>
+					</p>
+				</div>
 			</div>
-			<div class="sgq-environment-con">
-				<img src="images/sgq/sgq-environment1.jpg" alt="">
-				<p class="sgq-environment-gsqt">公司前台</p>
-				<p>
-					<span class="sgq-environment-en">Company reception desk</span>
-					<span class="sgq-environment-add">+</span>
-				</p>
+			<div class="sgq-environment-con swiper-slide">
+				<div>
+					<div>
+						<img src="images/sgq/sgq-environment1.jpg" alt="">
+					</div>
+
+					<p class="sgq-environment-gsqt">公司前台</p>
+					<p>
+						<span class="sgq-environment-en">Company reception desk</span>
+						<span class="sgq-environment-add">+</span>
+					</p>
+				</div>
+			</div>
+			<div class="sgq-environment-con swiper-slide">
+				<div>
+					<div>
+						<img src="images/sgq/sgq-environment1.jpg" alt="">
+					</div>
+
+					<p class="sgq-environment-gsqt">公司前台</p>
+					<p>
+						<span class="sgq-environment-en">Company reception desk</span>
+						<span class="sgq-environment-add">+</span>
+					</p>
+				</div>
+			</div>
+			<div class="sgq-environment-con swiper-slide">
+				<div>
+					<div>
+						<img src="images/sgq/sgq-environment1.jpg" alt="">
+					</div>
+
+					<p class="sgq-environment-gsqt">公司前台</p>
+					<p>
+						<span class="sgq-environment-en">Company reception desk</span>
+						<span class="sgq-environment-add">+</span>
+					</p>
+				</div>
 			</div>
 			<!--循环图片结束-->
 		</div>
+		<div class="sgq-tv-pagination"></div>
 	</div>
-	<ul class="sgq-environment-lisbox">
-		<li class="sgq-environment-lis sgq-active"></li>
-		<li class="sgq-environment-lis"></li>
-		<li class="sgq-environment-lis"></li>
-		<li class="sgq-environment-lis"></li>
-	</ul>
+	<!--<ul class="sgq-environment-lisbox">-->
+		<!--<li class="sgq-environment-lis sgq-active"></li>-->
+		<!--<li class="sgq-environment-lis"></li>-->
+		<!--<li class="sgq-environment-lis"></li>-->
+		<!--<li class="sgq-environment-lis"></li>-->
+	<!--</ul>-->
+	<img src="images/sgq/sgq-blue.png" alt="" class="sgq-blue">
+	<div class="sgq-black"></div>
 </div>
 <!--教学环境结束-->
 
@@ -97,44 +142,44 @@
 		</div>
 	</div>
 	<!--底部图片-->
-	<div class="sgq-honour-img-scene">
-		<div class="sgq-honour-img-box">
-			<div class="sgq-honour-img">
+	<div class="sgq-honour-img-scene swiper-container">
+		<div class="sgq-honour-img-box swiper-wrapper">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
 			</div>
-			<div class="sgq-honour-img">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
 			</div>
-			<div class="sgq-honour-img">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
 			</div>
-			<div class="sgq-honour-img">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
 			</div>
-			<div class="sgq-honour-img">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
 			</div>
-			<div class="sgq-honour-img">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
 			</div>
-			<div class="sgq-honour-img">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
 			</div>
-			<div class="sgq-honour-img">
+			<div class="sgq-honour-img swiper-slide">
 				<img src="images/sgq/sgq-honour1.jpg" alt="">
 				<p class="sgq-honour-p1">金融行业直播学习会</p>
 				<p class="sgq-honour-p2">你是否期待学习清华期待和金融大</p>
@@ -146,6 +191,11 @@
 	<div class="sgq-honour-right"></div>
 </div>
 <!--教学荣誉结束-->
+
+
+<!--底部位置-->
+
+<script src="js/swiper.min.js"></script>
 <script src="js/sgq_aboutus.js"></script>
 </body>
 </html>
