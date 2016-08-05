@@ -1,0 +1,211 @@
+html{
+  width: 100%;
+}
+
+.sgq-zhuanti{
+  width: 100%;
+  overflow-x: hidden;
+  //各标题
+  .sgq-title-img{
+    width: 280px;
+    height: 56px;
+    margin: 0 auto;
+    background-repeat:no-repeat;
+    background-position: center top;
+  }
+  .sgq-origin-img {
+    background-image: url("../images/sgq/sgq-laiyuan.png");
+  }
+  .wlh-profession-img{
+    background-image: url("../images/sgq/sgq-zhuanye.png");
+  }
+  .sgq-shixun-img{
+    background-image: url("../images/sgq/sgq-shixun.png");
+  }
+  .sgq-jiaoxue-img{
+    background-image: url("../images/sgq/sgq-jiaoxue.png");
+  }
+  .sgq-youshi-img{
+    background-image: url("../images/sgq/sgq-youshi.png");
+  }
+  .sgq-jiangxue-img{
+    background-image: url("../images/sgq/sgq-jiangxue.png");
+  }
+  .sgq-zhuanti-top{
+    height: 819px;
+    //text-align: center;
+    position: relative;
+    z-index: -1;
+    .sgq-zhuanti-header{
+      position: absolute;
+      left: 50%;
+      margin-left: -840px;
+      height: 100%;
+    }
+    .sgq-top-left-img{
+      position: absolute;
+      bottom:-353px;
+      left: 50%;
+      margin-left: -840px;
+      z-index: 0;
+      width: 423px;
+      height: 570px;
+      background: url("../images/sgq/sgq-top-left.png");
+    }
+    .sgq-top-right-img{
+      position: absolute;
+      bottom:-352px;
+      right: 50%;
+      margin-right: -846px;
+      z-index: 0;
+      width: 289px;
+      height: 522px;
+      background: url("../images/sgq/sgq-top-right.png");
+    }
+  }
+
+  //课程来源
+  .sgq-course-origin{
+    margin-top: -44px;
+    .sgq-origin-con{
+      width: 1142px;
+      height: 153px;
+      line-height: 2em;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 48px;
+    }
+
+  }
+
+  //专业简介
+  .wlh-professionbox {
+    width: 100%;
+    height: 641px;
+    padding-top: 22px;
+    background: none;
+    position: relative;
+    font-family: Arial, "微软雅黑";
+    .sgq-zhuanti-red{
+      position: absolute;
+      top:229px;
+      left: 0;
+      z-index: -1;
+      width: 867px;
+      height: 1465px;
+      background: url("../images/sgq/sgq-zhuanti-red.png");
+    }
+    .sgq-zhuanti-red-blue{
+      background: url("../images/sgq/sgq-zhuanti-red-blue.png");
+    }
+}
+
+
+  .wlh-jidibox {
+    background: none;
+  }
+  .wlh_moshibox {
+    background:none;
+  }
+  //优势
+  .wlh-youshibox {
+    background: none;
+    position: relative;
+    .sgq-zhuanti-blue{
+      position: absolute;
+      top:171px;
+      right: 0;
+      z-index: -1;
+      width: 1236px;
+      height: 927px;
+      background: url("../images/sgq/sgq-zhuanti-blue.png");
+    }
+    .sgq-zhuanti-blue-red{
+      background: url("../images/sgq/sgq-zhuanti-blue-red.png");
+    }
+  }
+  .wlh-jiangxuebox {
+    background: none;
+  }
+
+
+  // 底部
+  .lx_footer{
+    width: 100%;
+    height: 260px;
+    .lx_footerInfo{
+      width: 100%;
+      height: 200px;
+      background: #99c3f3;
+      .lx_infoCon{
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        .lx_infoLeft{
+          width: 370px;
+          height: 100px;
+          float: left;
+          margin-top: 40px;
+          li{
+            border-left: 1px solid #3a4d5f;
+            float: left;
+            padding: 0px 20px;
+            margin: 10px 0;
+          }
+          .lx_infolF{
+            border-right: 1px solid #3a4d5f;
+          }
+          a{
+            font-size: 16px;
+            color: #000000;
+            font-family: "微软雅黑";
+          }
+        }
+        .lx_infoRight{
+          width: 620px;
+          height: 120px;
+          float: right;
+          font-size: 12px;
+          color: #000000;
+          margin-top: 40px;
+          li{
+            width: 155px;
+            height: 100%;
+            float: left;
+            box-sizing: border-box;
+            padding: 0 20px 0 10px;
+            line-height: 20px;
+            img{
+              width: 114px;
+              height: 114px;
+              display: block;
+            }
+            .lx_rightTit{
+              text-align: left;
+              margin-bottom: 25px;
+            }
+            div{
+              text-align: center;
+            }
+          }
+          div{
+            font-size: 14px;
+          }
+        }
+
+
+      }
+
+    }
+    .lx_footerPow{
+      width: 100%;
+      height: 60px;
+      background: #1a1a1a;
+      text-align: center;
+      line-height: 60px;
+      color: #ffffff;
+      font-family: "微软雅黑";
+      font-size: 16px;
+    }
+  }
+}
